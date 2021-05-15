@@ -14,5 +14,5 @@ use App\Http\Controllers\ScrapeController;
 |
 */
 
-Route::get('get_data', [ScrapeController::class, 'get_data']);
+Route::get('/get_data', [ScrapeController::class, 'get_data']);
  
